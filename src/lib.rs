@@ -1,3 +1,4 @@
+pub use crate::arch::Arch;
 pub use crate::device::{Device, DeviceFile};
 pub use crate::error::{DeviceError, DeviceResult};
 pub use crate::find::DeviceConfig;
